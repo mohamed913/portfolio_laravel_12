@@ -376,6 +376,7 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+   
   }
 
   .mylinks {
@@ -385,6 +386,8 @@ nav {
     right: 0px;
     top: 70px;
     width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
 
   }
 
@@ -1013,6 +1016,7 @@ nav {
     background-color: var(--main-color);
     /* min-width: 150px; */
     width: 100%;
+   margin: 0px auto;
   }
 
   .langitems ul li i {
