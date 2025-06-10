@@ -48,6 +48,15 @@ mylang.addEventListener('click', () => {
     mylangitems.classList.toggle('toggle_block');
 });
 
+var mylang2 = document.getElementById('mylang2');
+
+mylang2.addEventListener('click', () => {
+
+    let mylangitems2 = document.getElementById('mylangitems2');
+    // settings.style.display = 'block'; //settings_toogle
+    mylangitems2.classList.toggle('toggle_block');
+});
+
 
 
 //  var modal_add_contact=document.getElementById('modal_add_contact');
