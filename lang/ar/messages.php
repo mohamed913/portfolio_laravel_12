@@ -24,6 +24,7 @@ return [
 "Contact"=>"تواصل معنا",
 "Dashboard"=>"لوحة التخكم",
 "Language"=>"اللغة",
+"Education"=>"التعليم",
 
 ######## end the nav page ##################
 
@@ -35,6 +36,14 @@ return [
 "I'm A Backend Web Developer"=>"انا اعمل مطور ويب",
 "My Work"=>"اعمالى",
 ######## end the carasaul page ##################
+######## start the education page ##################
+###################################################################
+"Bachelor's degree in Mathematics And Computer science"=>"بكالوريوس في الرياضيات وعلوم الحاسب",
+"Faculty of science, BeniSuef University"=>"كلية العلوم, جامعة بني سويف",
+"FullStack OpenSource"=>"تراك برمجيات مفتوحة المصدر",
+"Information Technology Institute (ITI)"=>"معهد تكنولوجيا المعلومات (ITI)",
+
+######## end the education page ##################
 
 ######## start the about page ##################
 ###################################################################

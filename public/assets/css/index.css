@@ -6,12 +6,20 @@
 }
 
 :root {
-  /* --main-color: #108a00; */
+   /* --main-color: #108a00; */
+/* #022A30 */
+/* #022A30 */
+/* #B6CBCE */
+/* #EEF3DB */
 
-  --main-color: #ffffff;
-  --main-text-color: #1f2937;
+  /* --main-color: #ffffff; */
+  --main-color: rgba(3, 63, 71, 0.8);
+  /* --main-text-color: #1f2937; */
+  --main-text-color: #EEF3DB
+;
   --secondry-color: #06b6d4, ;
-  --primary-color: #dae3e7;
+  /* --primary-color: #dae3e7; */
+  --primary-color: #022A30;
   --text-color-green: rgba(20, 168, 0, 6.5);
   --text-color-light: rgba(0, 0, 0, 0.1);
   --main-color-alt: #0866ff;
@@ -79,6 +87,7 @@ ul {
   margin: 0px auto;
   background-color: var(--main-color);
   border-radius: 20px;
+  color: var(--main-text-color);
 
 
 }
@@ -96,7 +105,7 @@ ul {
 
   .myheading {
     font-size: 40px;
-    width: 200px;
+    width: 250px;
     margin: 0px auto;
   }
 }
@@ -582,8 +591,6 @@ nav {
   }
 
 
-
-
 }
 
 
@@ -595,25 +602,27 @@ nav {
   flex-direction: row;
   height: 550px;
   margin: 70px 0px 130px 0px;
+  color: var(--main-text-color);
 
 }
 
 .myimg_container {
   text-align: center;
   align-items: center;
+  align-content: center;
   width: 100%;
 }
 
 .myimg {
-  height: 100%;
+  height:80%;
   width: 80%;
-  padding-top: 20px;
   border-radius: 40px;
+  border: 5px solid var(--main-text-color);
 
 }
 
 .about {
-  text-align: left;
+  text-align: center;
   align-items: center;
   padding: 100px 0 0 20px;
   width: 100%;
@@ -623,12 +632,11 @@ nav {
   margin: auto 0;
   margin-right: 50px;
   border-radius: 40px;
-
 }
 
 .btndownload_cv {
   background-color: var(--main-color-alt);
-  color: var(--main-color);
+  color: var(--main-text-color);
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -639,22 +647,24 @@ nav {
 
 .btndownload_cv:hover {
   background-color: var(--main-color);
-  color: var(--main-text-color);
+  padding: 12px;
+  transition: var(--main-transition);
 }
 
 .btncontact_me {
   background-color: #000000;
-  color: var(--main-color);
+  color: var(--main-text-color);
   padding: 15px;
   border-radius: 5px;
   cursor: pointer;
-
+  
 
 }
 
 .btncontact_me:hover {
   background-color: var(--main-color);
-  color: var(--main-text-color);
+   padding: 12px;
+  transition: var(--main-transition);
 }
 
 /* @media (min-width: 789px) {
@@ -668,22 +678,33 @@ nav {
   .carasaul {
     display: flex;
     flex-direction: column;
+    margin: 70px 0px 400px 0px;
   }
 
+
   .myimg_container {
-    display: none;
-  }
+
+
+
+    }
+     .myimg {
+  
+  width: 60%;
+  border-radius: 10px;
+
+}
 
   .about {
     text-align: center;
     align-items: center;
-    padding-top: 50px;
-    width: 100%;
-    height: 100%;
+    padding: 30px;
+    width: 60%;
+    height: 80%;
+    margin: 0px auto;
     /* color: var(--main-color-alt); */
     border-radius: 10px;
     /* background:url("../imgs/mohamed_profile.jpg"), center center no-repeat; */
-    background-image: url('../imgs/mohamed4.jpg');
+    /* background-image: url('../imgs/mohamed4.jpg'); */
     background-size: cover;
     /* Scale the image to cover the entire background */
     background-position: center;
@@ -713,20 +734,71 @@ nav {
 } */
 
 @media (max-width: 768px) {
+   .carasaul {
+   
+    margin: 70px 0px 200px 0px;
+  }
+  .myimg {
+  height:80%;
+  width: 80%;
+ 
+
+}
 
   .about {
     text-align: center;
     align-items: center;
     padding-top: 50px;
-    width: 100%;
+    width: 80%;
+    height: 80%;
+    margin: 0px auto;
     margin-top: -25px;
 
-    color: var(--main-color-alt);
+    /* color: var(--main-color-alt); */
   }
 
 }
 
 /* end carasaul */
+
+/* start education */
+.education{
+  display: flex;
+  color: var(--main-text-color);
+  
+}
+.education h1{
+  color: var(--text-color-green);
+}
+.education_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  align-items: left;
+  justify-content: center;
+  padding: 30px 10px 40px 10px;
+  background-color: var(--main-color);
+  margin: 10px;
+  border-radius: 10px;
+
+}
+@media (max-width: 992px) {
+
+.education{
+    flex-direction: column;
+    font-size: var(--small-font-size);
+  }
+
+  .education_section {
+    width: 100%;
+    margin: 10px auto;
+    
+  }
+
+
+}
+/* end education */
 
 .aboutme {
   display: flex;
@@ -908,7 +980,7 @@ nav {
 }
 
 .service p {
-  color: var()
+  color: var(--main-text-color);
 }
 
 
@@ -1004,6 +1076,7 @@ nav {
   color: var(--primary-color);
   padding: 100px 20px 100px 20px;
   margin-top: 100px;
+  color: var(--main-text-color);
 
 }
 
@@ -1012,7 +1085,7 @@ nav {
 }
 
 .footer .links_footer ul li a {
-  color: var(--primary-color);
+  color: var(--main-text-color);
   line-height: 1.5;
   font-weight: bold;
 }
@@ -1081,7 +1154,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
-    color: white !important;
+    color: var(--main-text-color)!important;
     justify-items: center;
     text-align: left;
 
@@ -1116,7 +1189,7 @@ nav {
 
 .copy_right {
   background-color: #000000;
-  color: var(--primary-color);
+  color: var(--main-text-color);
   font-size: var(--large-font-size);
   text-align: center;
   align-items: center;

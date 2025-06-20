@@ -9,15 +9,24 @@
      <!-- end nav -->
 
       <!-- start carasaul -->
+      
       @include('front.carasaul')
    <!-- end carasaul -->
 
-       <!-- start about -->
+       {{-- <!-- start about -->
     <h1 id="about" class="myheading">{{ __('messages.About') }}</h1>
     <div class="container">
         @include('front.about')
     </div>
-    <!-- end about -->
+    <!-- end about --> --}}
+
+
+    <!-- start education -->
+    <h1 id="education" class="myheading">{{ __('messages.Education') }}</h1>
+    <div class="container">
+        @include('front.education')
+    </div>
+    <!-- end education  -->
 
       <!-- start services -->
       <h1 id="services" class="myheading">{{ __('messages.Services') }}</h1>

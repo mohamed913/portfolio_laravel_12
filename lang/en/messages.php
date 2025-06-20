@@ -24,6 +24,7 @@ return [
 "Contact"=>"Contact",
 "Dashboard"=>"Dashboard",
 "Language"=>"Language",
+"Education"=>"Education",
 ######## end the nav page ##################
 
 ######## start the carasaul page ##################
@@ -34,6 +35,15 @@ return [
 "I'm A Backend Web Developer"=>"I'm A Backend Web Developer",
 "My Work"=>"My Work",
 ######## end the carasaul page ##################
+
+######## start the education page ##################
+###################################################################
+"Bachelor's degree in Mathematics And Computer science"=>"Bachelor's degree in Mathematics And Computer science",
+"Faculty of science, BeniSuef University"=>"Faculty of science, BeniSuef University",
+"FullStack OpenSource"=>"FullStack OpenSource",
+"Information Technology Institute (ITI)"=>"Information Technology Institute (ITI)",
+
+######## end the education page ##################
 
 ######## start the about page ##################
 ###################################################################
