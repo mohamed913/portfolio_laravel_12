@@ -274,6 +274,7 @@ ul {
 
 .form_container h1 {
   margin-left: 15%;
+  color: var(--main-text-color);
 }
 
 .form {
@@ -313,7 +314,7 @@ ul {
 .form_group label {
   width: 20%;
   text-align: center;
-
+color: var(--main-text-color);
   margin-bottom: 15px;
 
 }
@@ -335,11 +336,12 @@ ul {
 
 .form button {
   width: 135px;
-  color: var(--main-color);
+  color: var(--main-text-color);
   background-color: var(--main-color-alt);
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+
 
 }
 
